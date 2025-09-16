@@ -25,6 +25,13 @@ This week, I was humbled by my lack of coherent notes from our last class, so do
 	* After that, I looked at my notes from last class for this HW assignment about the format for making my computer say things to double check that I had everything right, and then I plugged everything in!
 	* Honestly, I was expecting many many many things to go wrong, but when I went to my Haiku folder, everything was there! 
 	
+	Here's all my code: 
+	
+`Last login: Mon Sep 15 21:00:55 on ttys000
+chloebecker@MacBook-Pro-84 ~ % cd /users/chloebecker/Documents/GitHub/itp/Haiku
+chloebecker@MacBook-Pro-84 Haiku % pwd
+/users/chloebecker/Documents/GitHub/itp/Haiku
+chloebecker@MacBook-Pro-84 Haiku % Say "As I was going up the stair I met a man who wasn't there! He wasn't there again today, Oh how I wish he'd go away!" -o ShortPoem.aiff`
 	
 3. Determined to make a pretty TextMate window 
     * After this, I decided to make sure I felt comfortable with TextMate by making sure it looked structured and well thought out. So I went to GitHub and found a very convenient TextMate Cheatsheet, and was off to the races (especially after looking into John Gruber's original spec). Hopefully my work paid off and this looks somewhat presentable! 
