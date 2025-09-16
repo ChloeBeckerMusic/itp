@@ -1,6 +1,6 @@
 # Homework Week #3 *Supplemental*
 
-This week, I was humbled by my difficulties with Terminal and my lack of coherent notes from our last class. I am usually a better note taker but things must have gotten away from me, and therefore I struggled a bit with this homework, but I am **determined** ~~to be good at this immediately.~~ to learn as much as I can and do everything to the best of my ability. 
+This week, I was humbled by my lack of coherent notes from our last class, so doing this homework was less seamless than I had hoped. I am usually a better note taker but things must have gotten away from me, and therefore I struggled a bit with this homework, but I am **determined** ~~to be good at this immediately.~~ to learn as much as I can and do everything to the best of my ability. 
 
 #### Here's what I did: 
 
@@ -21,11 +21,15 @@ This week, I was humbled by my difficulties with Terminal and my lack of coheren
 	
 	
 2. Using Terminal!
-    * Wow! A week feels really long when you don't review notes until the night before something is due! ~~I'm not like this usually, I swear~~ So I looked back at my notes, found very few things to be helpful, then looked at GitHub, found very helpful information, and started troubleshooting. First, I didn't know how to save files to this specific folder, and after getting a vague idea of how to do it from my notes and beginning to troubleshoot - I knew it had something to do with using 'cd' and then telling the computer exactly which files to go to, but I forgot the format that it needed to be in - I went right to google and asked how to tell terminal where to save my files [here.](https://discussions.apple.com/thread/5757659?sortBy=rank)
-	* After that, I looked at the only helpful part of my notes from last class for this HW assignment, which was the format for how to make the computer say something, and was able to plug everything in! 
+    * First, I didn't know how to save my .aiff file to this specific folder. I started fiddling around and jogging my brain to remember what 'cd' and 'pwd' meant and after I tried to get my computer to say a couple things and having random unusable file folders appear in my documents folder, I had a vague idea of what I needed to do. After getting a clearer idea of how to do it from my notes and from the GitHub class repository (I knew I wanted to type in 'cd' and then tell the computer exactly where to go and which files to look for but I didn't the format that it needed to be in), I went right to google and asked "How do I tell Terminal where to save my files?" [here.](https://discussions.apple.com/thread/5757659?sortBy=rank)
+	* After that, I looked at my notes from last class for this HW assignment about the format for making my computer say things to double check that I had everything right, and then I plugged everything in!
 	* Honestly, I was expecting many many many things to go wrong, but when I went to my Haiku folder, everything was there! 
 	
 	
 3. Determined to make a pretty TextMate window 
     * After this, I decided to make sure I felt comfortable with TextMate by making sure it looked structured and well thought out. So I went to GitHub and found a very convenient TextMate Cheatsheet, and was off to the races (especially after looking into John Gruber's original spec). Hopefully my work paid off and this looks somewhat presentable! 
+	
+4. I tried a couple times to add an image into TextMate, but nothing was working even after I tried some of the code that John Gruber explained, so I'm going to wait for us to cover it in class. I was going to put in a little image saying "Thank you!" that was also a reference to The Magnus Archives, but I guess I'll just have to do it the old fashioned way... 
+
+So Thank you!! :)
 	
