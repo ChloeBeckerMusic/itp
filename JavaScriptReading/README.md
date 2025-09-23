@@ -52,7 +52,7 @@ More specifically, I learned about bindings **AND** this is the part of learning
 
 Because, yeah, that makes sense to me now. 
 
-#### Chloe Sidenote(s)^TM: 
+### Chloe Sidenote(s): 
 
 "And my heart glows bright red under my filmy, translucent skin and they have to administer 10cc of JavaScript to get me to come back. (I respond well to toxins in the blood.) Man, that stuff will kick the peaches right out your gills!"
 From: _why, Why's (Poignant) Guide to Ruby
