@@ -26,7 +26,7 @@ This was my first iteration which, as you can see, does not include the very imp
 
 ![FizzBuzzFizz](FizzBuzzFizz.jpg)
 
-Then, I realized that I needed to add the command to print all numbers that weren't divisible by 3 or 5 so I added `else console.log(i)` but I inserted it before the Fizz/Buzz/FizzBuzz commands, which gave me this: 
+So I realized that I needed to add the command to print all numbers that weren't divisible by 3 or 5 so I added `else console.log(i)` but I inserted it before the Fizz/Buzz/FizzBuzz commands, which gave me this: 
 
 ![123Fizz](123Fizz.jpg)
 
@@ -36,5 +36,9 @@ Then I realized that I needed to make the computer go through the Fizz/Buzz/Fizz
 
 ![12Fizz](12Fizz.jpg)
 
+And that's it for this week :) 
+
+
+![ThankYou](ThankYou.jpg)
 
 
