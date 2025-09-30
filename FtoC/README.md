@@ -6,18 +6,18 @@ When I tell you that I tried making this so much more complicated than it really
 
 Here's a fun list of things I did before realizing that this assignment was SO much more simple than I thought: 
 
-I solved the c-->f equation for f because I was going through the motions of isolating every variable like I used to in my math classes and then realized I didn't need to at all...
+- I solved the c-->f equation for f because I was going through the motions of isolating every variable like I used to in my math classes and then realized I didn't need to at all...
 
-I wrote `const f = Fahrenheit`, `const c = celsius`, THEN wrote `let f = 99` and `const c = (f - 32) * 5 / 9;` even though nothing in the rest of my code at the time referenced the word Fahrenheit or Celsius at all ??? c r a s y
+- I wrote `const f = Fahrenheit`, `const c = celsius`, THEN wrote `let f = 99` and `const c = (f - 32) * 5 / 9;` even though nothing in the rest of my code at the time referenced the word Fahrenheit or Celsius at all ??? c r a s y
 
-I tried to make a string of some sort??? Couldn't possibly tell you why I was on that track for a while... (Well, I was trying to go through all my notes from class + thought we'd have to put a bunch of things together so I was trying out a bit of everything)
+- I tried to make a string of some sort??? Couldn't possibly tell you why I was on that track for a while... (Well, I was trying to go through all my notes from class + thought we'd have to put a bunch of things together so I was trying out a bit of everything)
 
-I tried looking online for anyone else who has done this (and found out it was a very common exercise) but no one was doing it in a helpful way to me and what I'd learned from our textbook. So after quickly scanning a ton of different sites, I gave up on that. I didn't want to use code I didn't fully understand and I knew I had all the tools to be able to figure this out by myself. 
+- I tried looking online for anyone else who has done this (and found out it was a very common exercise) but no one was doing it in a helpful way to me and what I'd learned from our textbook. So after quickly scanning a ton of different sites, I gave up on that. I didn't want to use code I didn't fully understand and I knew I had all the tools to be able to figure this out by myself. 
 
 And just to be safe, here are some of the sites I visited, but I didn't end up using any of this code: 
 [w3resource site](https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-11.php), 
 [geeksforgeeks site](https://www.geeksforgeeks.org/javascript/javascript-program-to-convert-farenheit-to-celcius/), and 
-[w3schools site](https://www.w3schools.com/howto/howto_js_temperature_converter.asp)
+[w3schools site](https://www.w3schools.com/howto/howto_js_temperature_converter.asp).
 
 And I'd rather put these here because it's sort of like my references section even if I didn't directly use any of this information. IDK... just to cover all my bases and get used to linking things quickly. 
 
