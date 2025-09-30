@@ -17,22 +17,20 @@ Here's a fun list of things I did before realizing that this assignment was SO m
 And just to be safe, here are some of the sites I visited, but I didn't end up using any of this code: 
 [w3resource site](https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-11.php), 
 [geeksforgeeks site](https://www.geeksforgeeks.org/javascript/javascript-program-to-convert-farenheit-to-celcius/), and 
-[w3schools site](https://www.w3schools.com/howto/howto_js_temperature_converter.asp).
-
-And I'd rather put these here because it's sort of like my references section even if I didn't directly use any of this information. IDK... just to cover all my bases and get used to linking things quickly. 
+[w3schools site](https://www.w3schools.com/howto/howto_js_temperature_converter.asp). And I'd rather put these here because it's sort of like my references section even if I didn't directly use any of this information. IDK... just to cover all my bases and get used to linking things quickly. 
 
 Eventually, *after far too long*, I realized the whole point of this conversion was that it was supposed to be... you guessed it... a conversion. (Writing this all out makes me want to bash my head into a wall but alas... this is how we learn.) 🤦 So I finally understood that I'd have to write out that f is equal to c and here's where we finally got on the right track. 
 
 I went back through our notes where we talked about brackets and how it refers to the indeces, in which I realized I had established f = 99 and c = (f - 32) * 5 / 9 as index entries (struggling with proper terminology but you see what I'm saying). It was at this point where I had already realized I didn't have to use the `let` function at all and this made everything much clearer to me. 
 
-SO: I had `const f = 99 // const c = (f - 32) * 5 / 9; // console.log(`${f} is equal to ${c}`);` And I ran the code.... **AND IT WORKED!**
+SO: I had `const f = 99 // const c = (f - 32) * 5 / 9; // console.log(`${f} is equal to ${c}`);` (I'm using // to stand in for line breaks btw). And I ran the code.... **AND IT WORKED!**
 
 ...But it didn't look pretty. 
 
 So then I realized I wanted to add the units so the answer would be clearer as to what the purpose of the function was (and I saw it in all of the sites I visited and it was only after I ran my code that I realized that I didn't add units and should probably do that). I also wanted to make 37.222222222222222 into 37.22 because that huge long number tough on the eyes. Thankfully, I had already gone through my notes a couple times and knew exactly what pages to reference to get there, and VOILA! I ended up with the following code: 
 
-`const f = 99
-const c = (f - 32) * 5 / 9;
+`const f = 99 //
+const c = (f - 32) * 5 / 9; //
 console.log(`${f}°F is equal to ${c.toFixed(2)}°C`);`
 
 which produced this result: `99°F is equal to 37.22°C`
