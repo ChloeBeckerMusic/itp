@@ -263,7 +263,7 @@ But it took me a long time to go through the code and actually understand what e
 - I changed the size from 50 to 25 to make it smaller 
 - originally it said `let angle;` then defined angle later in the code as 360/webSpokes and that didn't make any sense to me so I moved that up, especially since you have to define the term before you bring it up later. 
 - I of course got rid of the setup function and background specification since I already had those parameters up top. 
-- In the moment, I didn't change the `translate(width / 2, height / 2);` to `translate(400/2, 400, 2);` since I didn't realize it would cause problems later down the line, but I did change that eventually.
+- In the moment, I didn't change the `translate(width / 2, height / 2);` to `translate(400/2, 400/2);` since I didn't realize it would cause problems later down the line, but I did change that eventually.
 - I changed the strokeWeight from 2 to 4 since I wanted thicker lines for the spider web. 
 - I changed `line(0, 0, 160, 0);` to `line(0, 0, 75, 0);` since I wanted them to be shorter. 
 - I changed the minHeight to 25, maxHeight to 125, and increment to 20, since those were the parameters that I thought looked cool. 
