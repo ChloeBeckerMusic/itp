@@ -4,7 +4,7 @@ Okay this one is going to be a doozy but I'm going to try to keep it short and s
 
 Also, I didn't have time to make things look pretty which is so unfortunate, but I think I'll make it (just barely). 
 
-####Phase One 
+####  Phase One 
 
 
 I wanted to create something:
@@ -16,20 +16,20 @@ I wanted to create something:
 Here are my preliminary sketches: 
 
 
-![README_IMAGE1.jpg](README_IMAGE1.jpg)
+![README_IMAGE1.jpeg](README_IMAGE1.jpeg)
 
 
 I eventually landed on my current design, and felt that it would be complicated enough and cool enough for me to be super excited about it. 
 
 
 
-####Phase Two 
+#### Phase Two 
 
 
 I started with the code from the curved grid happy coding tutorial that I used for my curved green lines that form the shape of the eye. You can find the link [here](https://happycoding.io/tutorials/p5js/using-variables/curved-grid). 
 
 
-#####This was the original code: 
+##### This was the original code: 
 
 `function setup() {`
 	
@@ -123,7 +123,7 @@ I wanted to reference other code for this circle because I was generally confuse
 
 
 
-#####By this point, I had this as my pupil code: 
+##### By this point, I had this as my pupil code: 
 
 `fill(74, 255, 61);`
 
@@ -139,7 +139,7 @@ I spent a good hour trying to find the perfect reference for this web. Eventuall
 But it took me a long time to go through the code and actually understand what everything meant so that I could alter it. 
 
 
-#####Here is the code: 
+##### Here is the code: 
 
 `let bg;`
 
@@ -257,7 +257,7 @@ But it took me a long time to go through the code and actually understand what e
 
 
 
-#####Here are the things I changed: 
+##### Here are the things I changed: 
 
 - I changed "scale" to "scaleWeb" because it was messing with the term scale in general in p5.js. 
 - I changed the size from 50 to 25 to make it smaller 
@@ -340,7 +340,7 @@ With that, I headed onto the next phase.
 
 
 
-####Phase Three
+#### Phase Three
 
 WOWOOWOWOOWOOWOWOOWOOWOWOW this was diiiiiiiificult. 
 
@@ -348,11 +348,11 @@ I had to take a week long break from this project because I simply could not fig
 
 Here are some fun photos of my attempts to complete phase three: 
 
-![README_IMAGE2.jpg](README_IMAGE2.jpg)
+![README_IMAGE2.jpeg](README_IMAGE2.jpeg)
 
-![README_IMAGE3.jpg](README_IMAGE3.jpg)
+![README_IMAGE3.jpeg](README_IMAGE3.jpeg)
 
-![README_IMAGE4.jpg](README_IMAGE4.jpg)
+![README_IMAGE4.jpeg](README_IMAGE4.jpeg)
 
 In the end, I needed to change the order of parameters, change the canvas parameters, get rid of the height and width constants and instead use numbers to reflect what I wanted to happen on my canvas, and instead of using the term `background` and defining it through p5.js, I just put a black square behind my drawing and FINALLY, it worked. 
 
@@ -384,7 +384,7 @@ I fought tooth and nail for every single piece of that code and I hope it knows 
 
 So after that, I was done with phase three and I updated phase two to reflect my work. 
 
-####Phase Four
+#### Phase Four
 
 Here's where I'm at with phase four: 
 
