@@ -370,7 +370,7 @@ Here are the websites I tried to use:
 
 - [This was a forum I came across that sent me on a journey of using `HALF_PI` to try and work out my angles.](https://forum.processing.org/two/discussion/16327/set-text-orientation.html)
 
-- [This was the website where I tried to figure out all the variables for all the different angles and it almost gave me hope -- but oh how stupid, how foolish, how naive I was -- for this was for WebGL and it sent me on a rabbit hole of trying to implement THAT into my code--- which was an absolute train wreck since the whole spider code is based in radians anyway so I shouldn't have tried to use anything other than that-- and ON THAT NOTE-- that spider code  didn't have to deal with awful radians and I feel vindicated by that knowledge because GODDAMN.](https://p5js.org/reference/p5/rotate/)
+- [This was the website where I tried to figure out all the variables for all the different angles and it almost gave me hope -- but oh how stupid, how foolish, how naive I was -- for this was for WebGL and it sent me on a rabbit hole of trying to implement THAT into my code--- which was an absolute train wreck since the whole spider code is based in the regular radians parameters NOT in WebGL anyway](https://p5js.org/reference/p5/rotate/)
 
 - [This was when I fell into that WebGL rabbit hole](https://p5js.org/tutorials/coordinates-and-transformations/). 
 
