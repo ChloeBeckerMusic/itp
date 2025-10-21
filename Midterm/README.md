@@ -433,5 +433,167 @@ but I think I'm on the right track.
 
 I haven't figured it out as of Sunday night, but I will keep updating this ReadMe. 
 
+### GUYS
+### ITS 7:50AM AND I DID IT 
+### I FIGURED IT OUT ON THE GREEN LINE 
+
+OH MY GOD
+
+Here were my steps: 
+
+I googled it cause i forgot that was an option ( I have been severely sleep deprived )
+
+found this:
+
+[chatGPTpicture](README_IMAGE7.jpeg)
+
+then plugged it into p5.js 
+
+##### Got this: 
+
+[p5.js_GPT](README_IMAGE8.jpeg)
+
+Tried to translate the basics of that formula into this project: 
+
+`// alright guys lets try this one again`
+
+`// steps: added noLoop(); up top to make it draw the grid once only`
+
+`function draw {`
+	
+`let tileSize = 40;`
+
+`for (let y = 0; y < 400; y += tileSize) i`
+
+`for (let x = 0; x < 400; x += tileSize) {`
+	
+`drawObject (x, y)`
+
+`}`
+
+`}`
+
+`}`
+
+but I came up with this: 
+
+[firstIncorrectbutGridImage](README_IMAGE9.jpeg)
+
+Then I looked up how to do it on the [official p5.js website.](https://p5js.org/reference/p5/for/)
+
+[p5.jscodefordotgrid](README_IMAGE9.jpeg)
+
+
+##### Got to this code: 
+
+
+`function draw {`
+	
+`let tileSize = 40;`
+
+`for (let y = 0; y < 400; y`
+
+`+= tileSize) {`
+	
+`for (let x = 0; x < 400; x += tileSize) {`
+	
+`drawObject(x, y, tileSize, tileSize);`
+
+
+But I only got a green square. 
+
+[GreenSquare1](README_IMAGE10.jpeg)
+
+
+Then I found [this youtube video (timestamp 3:38).](https://www.youtube.com/watch?v=G_vKebvhpa0)
+
+that held the code: 
+
+[youtubecode](README_IMAGE11.jpeg)
+
+
+###### Tried to translate it into my project and got this: 
+
+
+`function draw() {`
+	
+`for (let x = 0; x`
+
+`< 400; x= x + 40) 1`
+
+`for (let y = 0; y`
+
+`<= 400; y = y + 40) 1`
+
+`for (let s = 0; s <= 400; s= s + 40) {`
+	
+`drawObject (x, y, s);`
+
+__AND I FORGOT TO ADD THE noLoop(); UP TOP AND P5.JS STARTED CRASHING BUT I SAVED IT OH MY GOD__
+
+Then I added the no loop and got a green square again, so my anxiety wasn't even for anything 
+
+Then I kept playing around with things since I felt like I knew the basic principles: 
+
+`function draw) {`
+	
+`let tileSize = 40`
+
+`let s = tileSize`
+
+`for (let y = 0; y < 400; y += tileSize) {`
+	
+`drawObject (y, 40, 40)`
+
+`}`
+
+`for (let x = 0; x < 400; x += tileSize) {`
+	
+`drawObject(x, 40)`
+
+`}`
+
+Then I got this: 
+
+[wild not grid but line picture](README_IMAGE12.jpeg)
+
+AND THEN I WENT. 
+
+wait.
+
+###### I'VE ALREADY BEEN ABLE TO DO THE DRAW OBJECT AT ANOTHER LOCATION. 
+
+THE HARD PART WAS THE FOR LOOPS. 
+
+I ALREADY FIGURED THIS OUT. 
+
+So I went back to my phase 3 code and SURE ENOUGH I ALREADY FIGURED IT OUT. 
+
+it was the scale variable that I was just completely misusing (again- sleep deprived over here)
+
+`function draw() {`
+  
+`  let tileSize = 40 `
+
+`  let s = scale`
+  
+` for (let y = 0; y < 400; y += tileSize) {`
+	
+`   for (let x = 0; x <= 400; x += tileSize) {`
+	
+`   drawObject(x, y, 0.1)`
+
+`   }`
+ 
+`  }`
+  
+`}`
+
+**AND**
+**IT** 
+***WORKED***
+
+[finished phase 4](README_IMAGE13.jpeg)
+
 
 ![Thank you!](ThankYou.jpg)
