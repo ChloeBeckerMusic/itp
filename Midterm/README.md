@@ -520,7 +520,7 @@ that held the code:
 ![youtubecode](README_IMAGE12.jpeg)
 
 
-###### Tried to translate it into my project and got this: 
+##### Tried to translate it into my project and got this: 
 
 
 `function draw() {`
@@ -569,7 +569,7 @@ AND THEN I WENT.
 
 wait.
 
-#### I'VE ALREADY BEEN ABLE TO DO THE DRAW OBJECT AT ANOTHER LOCATION. 
+### I'VE ALREADY BEEN ABLE TO DO THE DRAW OBJECT AT ANOTHER LOCATION. 
 
 THE HARD PART WAS THE FOR LOOPS. 
 
