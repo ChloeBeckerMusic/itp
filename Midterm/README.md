@@ -387,9 +387,6 @@ I fought tooth and nail for every single piece of that code and I hope it knows 
 So after that, I was done with phase three and I updated phase two to reflect my work. 
 
 
-![final of phase 2](README_IMAGE4.25.jpeg)
-
-
 ![final of phase 3](README_IMAGE4.5.jpeg)
 
 
