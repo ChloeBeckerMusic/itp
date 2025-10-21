@@ -338,7 +338,7 @@ and 2. I wasn't able to add the apostrophe to the it's and that bugged me endles
 
 With that, I headed onto the next phase. 
 
-
+[blurry image of half done phase 3](README_IMAGE1.5.jpeg)
 
 #### Phase Three
 
@@ -355,6 +355,10 @@ Here are some fun photos of my attempts to complete phase three:
 ![README_IMAGE4.jpeg](README_IMAGE4.jpeg)
 
 In the end, I needed to change the order of parameters, change the canvas parameters, get rid of the height and width constants and instead use numbers to reflect what I wanted to happen on my canvas, and instead of using the term `background` and defining it through p5.js, I just put a black square behind my drawing and FINALLY, it worked. 
+
+
+[blurry image of half done phase 3](README_IMAGE4.13.jpeg)
+
 
 Now, I had my dilemma. Would I go through with making the text follow the shape of the eye? 
 
@@ -383,6 +387,15 @@ So anyway, I finally had a basic understanding of how things were supposed to wo
 I fought tooth and nail for every single piece of that code and I hope it knows that I gaze upon it as if it were a piece of gum beneath my shoe, as if it were a stain on a raggedy old kitchen towel that was SO bad that I decided to THROW IT AWAY. 
 
 So after that, I was done with phase three and I updated phase two to reflect my work. 
+
+
+[final of phase 2](README_IMAGE4.25.jpeg)
+
+
+[final of phase 3](README_IMAGE4.5.jpeg)
+
+
+
 
 #### Phase Four
 
@@ -481,7 +494,7 @@ but I came up with this:
 
 Then I looked up how to do it on the [official p5.js website.](https://p5js.org/reference/p5/for/)
 
-[p5.jscodefordotgrid](README_IMAGE9.jpeg)
+[p5.jscodefordotgrid](README_IMAGE10.jpeg)
 
 
 ##### Got to this code: 
@@ -502,14 +515,14 @@ Then I looked up how to do it on the [official p5.js website.](https://p5js.org/
 
 But I only got a green square. 
 
-[GreenSquare1](README_IMAGE10.jpeg)
+[GreenSquare1](README_IMAGE11.jpeg)
 
 
 Then I found [this youtube video (timestamp 3:38).](https://www.youtube.com/watch?v=G_vKebvhpa0)
 
 that held the code: 
 
-[youtubecode](README_IMAGE11.jpeg)
+[youtubecode](README_IMAGE12.jpeg)
 
 
 ###### Tried to translate it into my project and got this: 
@@ -555,7 +568,7 @@ Then I kept playing around with things since I felt like I knew the basic princi
 
 Then I got this: 
 
-[wild not grid but line picture](README_IMAGE12.jpeg)
+[wild not grid but line picture](README_IMAGE13.jpeg)
 
 AND THEN I WENT. 
 
@@ -593,7 +606,7 @@ it was the scale variable that I was just completely misusing (again- sleep depr
 **IT** 
 ***WORKED***
 
-[finished phase 4](README_IMAGE13.jpeg)
+[finished phase 4](README_IMAGE14.jpeg)
 
 
 ![Thank you!](ThankYou.jpg)
