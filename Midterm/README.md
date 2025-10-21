@@ -338,8 +338,6 @@ and 2. I wasn't able to add the apostrophe to the it's and that bugged me endles
 
 With that, I headed onto the next phase. 
 
-[blurry image of half done phase 3](README_IMAGE1.5.jpeg)
-
 #### Phase Three
 
 WOWOOWOWOOWOOWOWOOWOOWOWOW this was diiiiiiiificult. 
@@ -357,7 +355,7 @@ Here are some fun photos of my attempts to complete phase three:
 In the end, I needed to change the order of parameters, change the canvas parameters, get rid of the height and width constants and instead use numbers to reflect what I wanted to happen on my canvas, and instead of using the term `background` and defining it through p5.js, I just put a black square behind my drawing and FINALLY, it worked. 
 
 
-[blurry image of half done phase 3](README_IMAGE4.13.jpeg)
+![blurry image of half done phase 3](README_IMAGE4.13.jpeg)
 
 
 Now, I had my dilemma. Would I go through with making the text follow the shape of the eye? 
@@ -389,10 +387,10 @@ I fought tooth and nail for every single piece of that code and I hope it knows 
 So after that, I was done with phase three and I updated phase two to reflect my work. 
 
 
-[final of phase 2](README_IMAGE4.25.jpeg)
+![final of phase 2](README_IMAGE4.25.jpeg)
 
 
-[final of phase 3](README_IMAGE4.5.jpeg)
+![final of phase 3](README_IMAGE4.5.jpeg)
 
 
 
@@ -458,13 +456,13 @@ I googled it cause i forgot that was an option ( I have been severely sleep depr
 
 found this:
 
-[chatGPTpicture](README_IMAGE7.jpeg)
+![chatGPTpicture](README_IMAGE7.jpeg)
 
 then plugged it into p5.js 
 
 ##### Got this: 
 
-[p5.js_GPT](README_IMAGE8.jpeg)
+![p5.js_GPT](README_IMAGE8.jpeg)
 
 Tried to translate the basics of that formula into this project: 
 
@@ -490,11 +488,11 @@ Tried to translate the basics of that formula into this project:
 
 but I came up with this: 
 
-[firstIncorrectbutGridImage](README_IMAGE9.jpeg)
+![firstIncorrectbutGridImage](README_IMAGE9.jpeg)
 
 Then I looked up how to do it on the [official p5.js website.](https://p5js.org/reference/p5/for/)
 
-[p5.jscodefordotgrid](README_IMAGE10.jpeg)
+![p5.jscodefordotgrid](README_IMAGE10.jpeg)
 
 
 ##### Got to this code: 
@@ -515,14 +513,14 @@ Then I looked up how to do it on the [official p5.js website.](https://p5js.org/
 
 But I only got a green square. 
 
-[GreenSquare1](README_IMAGE11.jpeg)
+![GreenSquare1](README_IMAGE11.jpeg)
 
 
 Then I found [this youtube video (timestamp 3:38).](https://www.youtube.com/watch?v=G_vKebvhpa0)
 
 that held the code: 
 
-[youtubecode](README_IMAGE12.jpeg)
+![youtubecode](README_IMAGE12.jpeg)
 
 
 ###### Tried to translate it into my project and got this: 
@@ -568,7 +566,7 @@ Then I kept playing around with things since I felt like I knew the basic princi
 
 Then I got this: 
 
-[wild not grid but line picture](README_IMAGE13.jpeg)
+![wild not grid but line picture](README_IMAGE13.jpeg)
 
 AND THEN I WENT. 
 
@@ -606,7 +604,7 @@ it was the scale variable that I was just completely misusing (again- sleep depr
 **IT** 
 ***WORKED***
 
-[finished phase 4](README_IMAGE14.jpeg)
+![finished phase 4](README_IMAGE14.jpeg)
 
 
 ![Thank you!](ThankYou.jpg)
