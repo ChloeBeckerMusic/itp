@@ -1,19 +1,17 @@
-# Chloe Becker's GitHub 
-## AKA: You Found Me 
-
-How the hell did you find me?? 
-I'm obviously anonymous in everything I do, as is everyone all the time. 
-
-Who am I? 
-
-Hmmmm.... 
-
-
-
-
-
-[WHATYOUWANTTODISPLAY](https://amp4.cc/)
-
-`code code code code remember to use back tics under esc button CHLOE`
+<div align="center">
+<img src="https://github.com/innng/innng/assets/26755058/5e0ce0fb-c544-4f8c-a307-5849165746d0" width="25%" align="right" />
+<img src="https://readme-typing-svg.demolab.com?font=Inconsolata&weight=500&size=50&duration=4000&pause=300&color=A7A459&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=1300&height=140&lines=Hello+hello;I'm+Ing%2C+a+tech+goblin+and+magical+girl+wannabe+%E2%9C%A9" width="70%" />
+<br><br>
+<pre>
+    🎓 Schooling: Phillips Exeter Academy, Berklee College of Music 🎓
+    👀 Interests: The Magnus Archives, The Beatles, Will Wood 👀
+    👾 Languages: javaScript, Python, CSS, HTML, SQL 👾
+    📧 Email: chloekathrynbecker@gmail.com 📧
+</pre>
+<br><br>
+<img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />
+<br><br><br>
+    
+</div>
 
 
