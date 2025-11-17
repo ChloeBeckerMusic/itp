@@ -50,4 +50,4 @@ The example on the state diagram for cheeses, numbers and empty was really infor
 
 Also, both of the sub chapters 10.5 and 10.6 were very informative, and I'll have to reference this page a lot when working on lists in Python-- there's a lot of new, Python-specific rules and methods. Also the new use of pop was interesting to learn about!! 
 
-<img src="ThankYou.jpg" alt="ThankYou" width="150"/>
+<img src="ThankYou.jpg" alt="ThankYou" width="175"/>
