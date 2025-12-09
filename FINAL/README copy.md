@@ -61,9 +61,7 @@ Ha! Fun! But oh, this is fixable still, right?
 
 Ha! 
 
-After deleting every single file on my computer relating to Twine in any capacity (along with every file on my local storage)(LIKE I WAS TOLD TO DO), redownloading everything from scratch, diving deep into terminal etc, zipping and saving the now almost useless files of my progress on my game to Google Drive, I was still not able to open the application. I had broken this game and I didn't know what to do. I spent countless hours scanning every page on the internet and nothing had worked. 
-
-Until yesterday, when I managed to contact a friend of a friend of a friend who is apparently a computer wizard, and he helped me track down the file error that was so infuriatingly hidden within my computer. 
+After deleting every single file on my computer relating to Twine in any capacity (along with every file on my local storage)(LIKE I WAS TOLD TO DO), redownloading everything from scratch, diving deep into terminal etc, zipping and saving the now almost useless files of my progress on my game to Google Drive, I was still not able to open the application. I had broken this game and I didn't know what to do. I spent countless hours scanning every page on the internet and nothing had worked--- until late last night yesterday, when I managed to contact a friend of a friend of a friend who is apparently a computer wizard, and he helped me track down the file error that was so infuriatingly hidden within my computer. 
 
 HUZZAH!
 
@@ -112,7 +110,7 @@ Great question! Let's dive into the code:
 </div>
 </div>
 
-// This gives us our first message from Sergey, with an avatar with his initials, a fake timestamp, and his username along with his message. 
+- // This gives us our first message from Sergey, with an avatar with his initials, a fake timestamp, and his username along with his message. 
 
     <!-- USER MESSAGE -->
     
@@ -124,11 +122,12 @@ Great question! Let's dive into the code:
           <div class="msg-username">You</div>
         <div class="msg-text">[[Hi. How are you?]]</div>
       </div>
-   </div>
+</div>
    
-      // this gives us our first option (which was positioned very differently in the final version)
+   
+  - // this gives us our first option (which was positioned very differently in the final version)
 	  
- <div class="chat-message from-me">
+    <div class="chat-message from-me">
       <div class="bubble">
        <div class="msg-timestamp">12:04 AM</div>
        
@@ -136,20 +135,19 @@ Great question! Let's dive into the code:
           <div class="msg-username">You</div>
         <div class="msg-text">[[Hello. Sergey, right?]]</div>
       </div>
-  </div>
-  
-<div class="msg-avatar">ME</div>
-  </div>
-  
     </div>
   
-  // this gives us our second option along with our own avatar 
+<div class="msg-avatar">ME</div>
+</div>
+  
+</div>
+  
+-  // this gives us our second option along with our own avatar 
 
-
-  <div class="chat-input-area">
+    <div class="chat-input-area">
     <input class="chat-input" id="chatInput" placeholder="Choose one of the messages above to chat." />
     <button class="chat-send" id="chatSend">Send</button>
-  </div>
+</div>
 </div>
 
 // this was added to look more like Windows 95, even though I didn't want people to be able to type their messages into the chat, so I just added the instructions there and created a fun little fake send button. 
@@ -183,6 +181,8 @@ Great question! Let's dive into the code:
   overflow: auto; 
 } 
 
+// an example of my past attempts at sizing ^^
+
 .chat-window {
   width: 600px;
   max-width: 98%;
@@ -193,17 +193,19 @@ Great question! Let's dive into the code:
   margin-left: 94px;
 }
 
+// an example of my past attempts at sizing ^^
+
 .chat-titlebar {
   display:flex;
   align-items:center;
   justify-content:space-between;
-  background: linear-gradient(#000080, #000060); /* deep blue */
+  background: linear-gradient(#000080, #000060); 
   color: #ffffff;
   padding: 0;
   font-weight: bold;
   font-size: 14px;
   border:2px solid var(--border-mid);
-  margin: -6px -6px 8px -6px; /* tuck into window border */
+  margin: -6px -6px 8px -6px; 
   box-sizing: border-box;
   height:28px;
 }
@@ -247,7 +249,6 @@ Great question! Let's dive into the code:
   background: linear-gradient(#c0c0c0,#9a9a9a);
 }
 
-/* 5) the individual message structure */
 .chat-message {
   display: flex;
   align-items: flex-start;
@@ -258,12 +259,10 @@ Great question! Let's dive into the code:
   margin: 2px 0;
 }
 
-/* Left vs Right messages (you vs other) */
 .chat-message.from-me { justify-content: flex-end; }
 .chat-message.from-me .bubble { background: var(--mine-bg); border-color: var(--border-dark); }
 .chat-message.from-them { justify-content: flex-start; }
 
-/* 6) avatar or initial square */
 .msg-avatar {
   width:36px;
   height:36px;
@@ -278,7 +277,6 @@ Great question! Let's dive into the code:
   box-shadow: 1px 1px 0 var(--border-dark) inset;
 }
 
-/* 7) bubble: the message container (simple rectangle with 3D border) */
 .bubble {
   background: var(--msg-bg);
   border: 2px solid var(--border-mid);
@@ -302,7 +300,6 @@ Great question! Let's dive into the code:
   padding: 0; 
 }
 
-/* Timestamp ABOVE username */
 .msg-timestamp {
   font-size: 12px;
   color: var(--timestamp-color);
@@ -311,7 +308,6 @@ Great question! Let's dive into the code:
   line-height: 1.1;
 }
 
-/* Username BELOW timestamp */
 .msg-username {
   font-size: 13px;
   font-weight: bold;
@@ -320,7 +316,6 @@ Great question! Let's dive into the code:
   padding: 0;
 }
 
-/* 9) message text itself */
 .msg-text {
   display:block;
   font-size: 13px;
@@ -337,8 +332,6 @@ Great question! Let's dive into the code:
     gap: 4px;
 }
 
-
-/* 11) input area (like a Windows 95 message composer) */
 .chat-input-area {
   display:flex;
   gap:8px;
@@ -373,7 +366,7 @@ body {
   color: black; 
   margin: 12px;
   font-family: Courier New, Verdana, Arial;
-  -webkit-font-smoothing: none; /* keep pixel-ish look */
+  -webkit-font-smoothing: none; 
 }
 
 .username-red {
@@ -407,7 +400,6 @@ a {
   font-size: 125%
 }
 
-/*buttons*/
 .passage button {
   background-color: transparent;
   color: var(--text);
@@ -428,6 +420,9 @@ a {
 .dm .passage button:hover {
   box-shadow: 4px 4px 0 var(--dm-menu);
 }
+
+// below are examples of code that were not implemented in this version including some of the first buttons I tried making: 
+
 .yes button {
   display: flex;
   margin: 0 auto;
@@ -474,24 +469,36 @@ a.popupone:hover {
 ## How did you learn all of that?? 
 
 Christy Tucker:
+[HowToBuildAChatSimulation](https://christytuckerlearning.com/how-i-built-a-chat-simulation-in-2-hours/)
 
-[Unhelpful](https://christytuckerlearning.com/how-i-built-a-chat-simulation-in-2-hours/)
+- This was a great starting off point and it allowed me to start thinking of all the things a chat simulation might entail, however, she did this one in Harlowe and it set me off on the wrong path since I had to later switch to SugarCube. 
+- She didn't provide any code in this page also so while it set me on the right foot, I was still floundering. 
 
-[VeryHelpful](https://christytuckerlearning.com/twine-chatbot-improvements/)
+[HowToBuildAChatSimulation2](https://christytuckerlearning.com/twine-chatbot-improvements/)
+
+- She updated it! With SugarCube! And added example code!! This was very helpful. 
+
 [VeryHelpful](https://christytuckerlearning.com/twine-makes-branching-scenarios-easier/)
 
+- I didn't necessarily use this, but I read it and thought I should add it here. Just an overview of Twine, really. 
+
 Adam Hammond (The GOAT): 
-[SO HELPFUL](https://www.youtube.com/watch?v=l-8dTwUVT2E)
 [SO HELPFUL](https://www.adamhammond.com/twineguide/#css)
 
-[Great because I was confused on bozes for a while](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-sizing)
+- This guy is my hero; he's got a HUGE youtube playlist (and blog that follows along with it) about styling Twine with CSS in SugarCube. I watched all of his videos- it was amazing. I've got a parasocial relationship with him now. 
 
+Developer.modzilla.org: 
+[Great because I was confused on boxes for a while](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-sizing)
+
+- This was a great site because I was still having a bit of trouble getting sizing and properties of boxes down and referencing this source helped me clear some things up. 
+
+SUGARCUBE AND CSS HOW TO: EVERYTHING: 
 [SugarCube Documentation: I learned everything on here](https://www.motoslave.net/sugarcube/2/docs/)
-
 [Everything to know about CSS: I also learned everything on here](https://www.w3schools.com/css/)
 
+- These two sources are what I stuck to the most-- they have everything you could ever want to know about Twine and CSS (except for the right instructions on how to troubleshoot my earlier problem and I might still be a bit emotional about it). Like, literally- any time I wanted to do something, I looked it up in these two documents and boom, the directions were there. 
 
-Gotta run to this class but I'll keep talking about all of this! 
+
 
 
 
