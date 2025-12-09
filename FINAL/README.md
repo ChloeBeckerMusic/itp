@@ -80,7 +80,7 @@ Great question! Let's dive into the code:
 
 ## HTML IN PASSAGES: 
 
-<div class="chat-window">
+`<div class="chat-window">
   <div class="chat-titlebar">
     <div class="title-left">Ushanka’s Despair.exe</div>
     <div class="title-buttons">
@@ -88,12 +88,12 @@ Great question! Let's dive into the code:
       <div class="tb-btn">□</div>
       <div class="tb-btn">✕</div>
     </div>
-  </div>
+  </div>`
 
 // What this is saying is that we've got our chat window with a title bar, a title, and three fake looking buttons that were very reminiscent of Windows 95 buttons that I intentionally tried to copy the look of. 
 
 
-  <div class="chat-scrollarea" id="chatList">
+ ` <div class="chat-scrollarea" id="chatList">
   
     <!-- SERGEY ONE MESSAGE -->
     
@@ -109,10 +109,10 @@ Great question! Let's dive into the code:
   </div>
 </div>
 </div>
-
+`
 - // This gives us our first message from Sergey, with an avatar with his initials, a fake timestamp, and his username along with his message. 
 
-    <!-- USER MESSAGE -->
+`    <!-- USER MESSAGE -->
     
     <div class="chat-message from-me">
       <div class="bubble">
@@ -122,12 +122,12 @@ Great question! Let's dive into the code:
           <div class="msg-username">You</div>
         <div class="msg-text">[[Hi. How are you?]]</div>
       </div>
-</div>
+</div>`
    
    
   - // this gives us our first option (which was positioned very differently in the final version)
 	  
-    <div class="chat-message from-me">
+ `   <div class="chat-message from-me">
       <div class="bubble">
        <div class="msg-timestamp">12:04 AM</div>
        
@@ -141,20 +141,20 @@ Great question! Let's dive into the code:
 </div>
   
 </div>
-  
+  `
 -  // this gives us our second option along with our own avatar 
 
-    <div class="chat-input-area">
+   ` <div class="chat-input-area">
     <input class="chat-input" id="chatInput" placeholder="Choose one of the messages above to chat." />
     <button class="chat-send" id="chatSend">Send</button>
 </div>
-</div>
+</div>`
 
 // this was added to look more like Windows 95, even though I didn't want people to be able to type their messages into the chat, so I just added the instructions there and created a fun little fake send button. 
 
 
 ## CSS FROM MY STORY STYLESHEET: 
-
+`
 :root{
   --bg:#c0c0c0;
   --panel:#e0e0e0; /*not this one*/
@@ -171,19 +171,19 @@ Great question! Let's dive into the code:
   --font-stack: Sans-Serif, Tahoma, Geneva, Verdana, Arial;
   --small-font-size:12px;
   --font-weight: 700;
-}
+}`
 
 // created variables to be used later on ^^ 
 
-// #story {
+`#story {
   position: absolute;
   margin-top: 140px; 
   overflow: auto; 
-} 
+} `
 
 // an example of my past attempts at sizing ^^
 
-.chat-window {
+`.chat-window {
   width: 600px;
   max-width: 98%;
   background: linear-gradient(#e9e9e9, #dcdcdc);
@@ -191,11 +191,11 @@ Great question! Let's dive into the code:
   box-shadow: 2px 2px 0 var(--border-dark);
   box-sizing: border-box;
   margin-left: 94px;
-}
+}`
 
 // an example of my past attempts at sizing ^^
 
-.chat-titlebar {
+`.chat-titlebar {
   display:flex;
   align-items:center;
   justify-content:space-between;
@@ -209,14 +209,14 @@ Great question! Let's dive into the code:
   box-sizing: border-box;
   height:28px;
 }
-
-.chat-titlebar .title-buttons {
+`
+`.chat-titlebar .title-buttons {
   display:flex;
   gap:6px;
   align-items:center;
-}
+}`
 
-.chat-titlebar .tb-btn {
+`.chat-titlebar .tb-btn {
   width:14px;
   height:14px;
   border:2px solid var(--border-mid);
@@ -226,9 +226,9 @@ Great question! Let's dive into the code:
   line-height:12px;
   font-size:10px;
   color:var(--border-dark);
-}
+}`
 
-.chat-scrollarea {
+`.chat-scrollarea {
   background: var(--panel);
   border-top:2px solid var(--border-light);
   border-left:2px solid var(--border-light);
@@ -241,15 +241,15 @@ Great question! Let's dive into the code:
   font-size: 13px !important;
   line-height: 1.2 !important;
   font-weight: 700;
-}
+}`
 
-.chat-scrollarea::-webkit-scrollbar { width:10px; }
+`.chat-scrollarea::-webkit-scrollbar { width:10px; }
 .chat-scrollarea::-webkit-scrollbar-thumb {
   border:2px solid var(--border-light);
   background: linear-gradient(#c0c0c0,#9a9a9a);
-}
+}`
 
-.chat-message {
+`.chat-message {
   display: flex;
   align-items: flex-start;
   gap: 4px;
@@ -258,12 +258,12 @@ Great question! Let's dive into the code:
   height: auto;
   margin: 2px 0;
 }
-
-.chat-message.from-me { justify-content: flex-end; }
+`
+.`chat-message.from-me { justify-content: flex-end; }
 .chat-message.from-me .bubble { background: var(--mine-bg); border-color: var(--border-dark); }
 .chat-message.from-them { justify-content: flex-start; }
-
-.msg-avatar {
+`
+`.msg-avatar {
   width:36px;
   height:36px;
   flex: 0 0 36px;
@@ -275,9 +275,9 @@ Great question! Let's dive into the code:
   border:2px solid var(--border-mid);
   background: linear-gradient(var(--border-light), var(--panel));
   box-shadow: 1px 1px 0 var(--border-dark) inset;
-}
+}`
 
-.bubble {
+`.bubble {
   background: var(--msg-bg);
   border: 2px solid var(--border-mid);
   border-top-color: var(--border-light);
@@ -291,54 +291,55 @@ Great question! Let's dive into the code:
   flex-grow: 1; 
   min-width: 200px;
 }
-
-.msg-meta {
+`
+`.msg-meta {
   display: flex;
   flex-direction: column;   /* stack vertically */
   align-items: flex-start;  /* align both to the left */
   margin: 0;
   padding: 0; 
-}
+}`
 
-.msg-timestamp {
+`.msg-timestamp {
   font-size: 12px;
   color: var(--timestamp-color);
   margin: 0;
   padding: 0;
   line-height: 1.1;
-}
+}`
 
-.msg-username {
+`.msg-username {
   font-size: 13px;
   font-weight: bold;
   color: var(--username-color);
   margin:0;
   padding: 0;
-}
+}`
 
-.msg-text {
+`.msg-text {
   display:block;
   font-size: 13px;
   color:#000;
   margin:0 !important;
   padding: 2px 6px !important;
   line-height: 1.2 !important;
-}
+}`
 
-.msg-line {
+`.msg-line {
     display: flex;
     flex-direction: row;
     align-items: baseline; 
     gap: 4px;
-}
+}`
 
-.chat-input-area {
+`.chat-input-area {
   display:flex;
   gap:8px;
   align-items:center;
   margin-top:10px;
-}
-.chat-input {
+}`
+
+`.chat-input {
   flex:1;
   padding:6px;
   border:2px solid var(--border-mid);
@@ -347,18 +348,18 @@ Great question! Let's dive into the code:
   font-family: var(--font-stack);
   font-size: 13px;
   box-sizing:border-box;
-}
+}`
 
-.chat-send {
+`.chat-send {
   padding:6px 10px;
   border:2px solid var(--border-mid);
   background: linear-gradient(#e9e9e9,#dcdcdc);
   box-shadow: 1px 1px 0 var(--border-dark);
   cursor:pointer;
   font-weight:bold;
-}
+}`
 
-body {
+`body {
   background-image: url("images/ushankabackground.png");
   background-repeat: no-repeat; 
   background-size: cover;
@@ -367,40 +368,41 @@ body {
   margin: 12px;
   font-family: Courier New, Verdana, Arial;
   -webkit-font-smoothing: none; 
-}
+}`
 
-.username-red {
+`.username-red {
   /* Username color sergey */
     color: #cc0000;
     font-weight: bold;
-}
+}`
 
-.username-blue {
+`.username-blue {
   /* Username color you */
     color: #003399;
     font-weight: bold;
-}
+}`
 
-a { 
+`a { 
   /* link color */ 
   color: dimgray;
-}
-  a:hover { 
+}`
+
+ ` a:hover { 
     /* link color when hovering */ 
   color: black;
   text-decoration: none;
   border-bottom: 4px solid black;
-}
+}`
 
-.popupone { 
+`.popupone { 
   /* tag background color */ 
   background-color: white;
   color: black; 
   font-family: Verdana, Arial; 
   font-size: 125%
 }
-
-.passage button {
+`
+`.passage button {
   background-color: transparent;
   color: var(--text);
   border: 1px solid var(--text);
@@ -409,62 +411,65 @@ a {
   font-weight: bold;
   letter-spacing: .05em;
   padding: .5em;
-}
-.dm .passage button {
+}`
+
+`.dm .passage button {
   color: var(--dm-text);
   border: 1px solid var(--dm-text);
-}
-.passage button:hover {
+}`
+
+`.passage button:hover {
   box-shadow: 4px 4px 0 var(--menu);
-}
-.dm .passage button:hover {
+}`
+
+`.dm .passage button:hover {
   box-shadow: 4px 4px 0 var(--dm-menu);
-}
+}`
 
 // below are examples of code that were not implemented in this version including some of the first buttons I tried making: 
 
-.yes button {
+`.yes button {
   display: flex;
   margin: 0 auto;
   transform: translateX(-10%);
-}
+}`
 
-.passage img {
+`.passage img {
   display: block;
   margin: 0 auto;
-}
+}`
 
-.areyousure-container {
+`.areyousure-container {
   position: relative;
   width: 1200px; /* Or a specific width */
   height: 400px; /* Give it height to contain the image */
-}
+}`
 
-.areyousure-image {
+`.areyousure-image {
   position: absolute;
   top: 200; /* From the top of the container */
   left: 400; /* From the left of the container */
   /* Or use bottom/right for precise placement */
   /* bottom: 20px; */
   /* right: 800px; */
-}
+}`
 
-a.popupone { 
+`a.popupone { 
   /* tag link color */
   color: darkgrey; 
-  }
+  }`
 
-a.popupone:hover { 
+`a.popupone:hover { 
   /* tag link when hovering */ 
   color: black;
   text-decoration: none;
   border-bottom: 4px solid black;
-}
+}`
 
-// #ui-bar { 
+`#ui-bar { 
   /* getting rid of ugly ass sidebar */
   display: none; 
-}
+}`
 
 ## How did you learn all of that?? 
 
