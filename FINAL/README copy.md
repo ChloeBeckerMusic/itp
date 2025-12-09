@@ -44,7 +44,7 @@ In this visual novel, I wanted to focus on the relationship between the user and
 Here's a sketch of the original design: 
 
 
-![UshankaSketch](UshankaSketch.png)
+![UshankaSketch](UshankaSketch.jpg)
 
 
 
