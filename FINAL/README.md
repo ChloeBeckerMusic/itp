@@ -80,15 +80,15 @@ Great question! Let's dive into the code:
 
 ## HTML IN PASSAGES: 
 
-`<div class="chat-window">
-  <div class="chat-titlebar">
-    <div class="title-left">Ushanka’s Despair.exe</div>
-    <div class="title-buttons">
-      <div class="tb-btn">_</div> 
-      <div class="tb-btn">□</div>
-      <div class="tb-btn">✕</div>
-    </div>
-  </div>`
+`<div class="chat-window">`
+ ` <div class="chat-titlebar">`
+  `  <div class="title-left">Ushanka’s Despair.exe</div>`
+  `  <div class="title-buttons">`
+     ` <div class="tb-btn">_</div> `
+    `  <div class="tb-btn">□</div>`
+ `     <div class="tb-btn">✕</div>`
+    `</div>`
+ ` </div>``
 
 // What this is saying is that we've got our chat window with a title bar, a title, and three fake looking buttons that were very reminiscent of Windows 95 buttons that I intentionally tried to copy the look of. 
 
@@ -108,8 +108,8 @@ Great question! Let's dive into the code:
     <div class="msg-text">Hello.</div>
   </div>
 </div>
-</div>
-`
+</div>`
+
 - // This gives us our first message from Sergey, with an avatar with his initials, a fake timestamp, and his username along with his message. 
 
 `    <!-- USER MESSAGE -->
@@ -127,21 +127,21 @@ Great question! Let's dive into the code:
    
   - // this gives us our first option (which was positioned very differently in the final version)
 	  
- `   <div class="chat-message from-me">
-      <div class="bubble">
-       <div class="msg-timestamp">12:04 AM</div>
+`<div class="chat-message from-me">`
+      `<div class="bubble">`
+      ` <div class="msg-timestamp">12:04 AM</div>`
        
-        <div class="msg-line">
-          <div class="msg-username">You</div>
-        <div class="msg-text">[[Hello. Sergey, right?]]</div>
-      </div>
-    </div>
+       ` <div class="msg-line">`
+        `  <div class="msg-username">You</div>`
+      `  <div class="msg-text">[[Hello. Sergey, right?]]</div>`
+    `  </div>`
+  `  </div>`
   
-<div class="msg-avatar">ME</div>
+`<div class="msg-avatar">ME</div>
 </div>
   
-</div>
-  `
+</div>`
+
 -  // this gives us our second option along with our own avatar 
 
    ` <div class="chat-input-area">
