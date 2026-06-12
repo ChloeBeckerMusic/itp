@@ -1,6 +1,3 @@
-# Hi hi! Still working on this readme :) 
-### pls ignore im just trying smt out
-
 <div align="center">
 <br><br>
 <pre>
@@ -12,5 +9,3 @@
 <br><br>
     
 </div>
-
-
